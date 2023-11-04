@@ -1,8 +1,6 @@
 html {
-    line-break: auto;
     zoom:0.9;
 }
-
 
 body {
     width: 100%;
@@ -71,14 +69,14 @@ input[type=checkbox]{
  vertical-align:middle; margin-bottom:2px;
  cursor: pointer;
  position: relative;
- width: 15px;
- height: 15px;
+ width: 24px;
+ height: 24px;
 }
 input[type=checkbox]::after{
  position: absolute;
  top: 0;
  margin-top:2px;
- width: 8px; height: 8px;
+ width: 14px; height: 14px;
  border: 1px solid red;
  border-radius: 3px;
  background-color: rgba(0,0,0,0);
@@ -91,8 +89,7 @@ input[type=checkbox]:checked::after{
  content: "Thinhkk";
  border-color: Crimson;
  background-color: Crimson;
- font-size: 4px;
-color: black;
+ font-size: 5px;
  font-weight: bold;
 font-style: italic;
 }
