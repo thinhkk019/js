@@ -1,7 +1,7 @@
         var h5gg_jquery_stub;
 
         if (typeof $ == 'undefined')
-            document.write("<script src=\"https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js\"><\/script>");
+            
 
         //æ ¹æ®éæ©çæç¬¦å·/æ ç¬¦å·æ°ç¡®å®æç´¢ç±»å
         function h5ggType(type) {
