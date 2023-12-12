@@ -1,8 +1,5 @@
-if(typeof $ == 'undefined') alert("网络连接失败, 请重新启动!");
-
+if(typeof $ == 'undefined');
 $(document).ready(function(){
-    //alert();
-    //绑定菜单点击切换子页面
     $("div.menubox").click(function(){
         $("div.menubox").removeClass("current");
         $("div.menuview").removeClass("current");
@@ -12,16 +9,14 @@ $(document).ready(function(){
         $("div#"+menuid).addClass("current");
     });
     
-    /*禁止文本Option和拖动*/
     document.body.onselectstart = document.body.ondrag =function(){
         return false;
     }
     
     $("input").blur(function(){
-        window.scroll(0,0); //文本框等输入完毕后页面自动滚动到顶部
+        window.scroll(0,0); 
     });
     
-    //激活webkit的button:active
     document.body.addEventListener('touchstart', function () {});
 
     if(typeof h5gg!='undefined') {
