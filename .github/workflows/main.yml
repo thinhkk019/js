@@ -1,0 +1,27 @@
+name: Get iKurd Token VIP
+on:
+  schedule:
+    - cron: '0 * * * *' # Chạy tự động mỗi 60 phút (vào đầu mỗi tiếng)
+  workflow_dispatch: # Cho phép bấm nút chạy bằng tay để test
+
+jobs:
+  hit_and_run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cuỗm Token từ iKurd
+        run: |
+          # Lấy Header Location từ iKurd
+          TOKEN_URL=$(curl -I -s "https://ikurd.store/api/julb" | grep -i "location:" | cut -d' ' -f2 | tr -d '\r')
+          
+          echo "Token lấy được: $TOKEN_URL"
+
+          # Nếu lấy được link igmenu thì gửi về Server của bro
+          if [[ $TOKEN_URL == igmenu* ]]; then
+            curl -X POST https://server-cua-bro.com/api/update.php \
+                 -d "key=MY_SECRET_123" \
+                 -d "token=$TOKEN_URL"
+            echo "--- Đã gửi về Server thành công ---"
+          else
+            echo "--- Thất bại: Không lấy được link igmenu ---"
+            exit 1
+          fi
