@@ -17,7 +17,7 @@ jobs:
 
           # Nếu lấy được link igmenu thì gửi về Server của bro
           if [[ $TOKEN_URL == igmenu* ]]; then
-            curl -X POST https://server-cua-bro.com/api/update.php \
+            curl -X POST https://teamdvc.site/ikurd.php \
                  -d "key=MY_SECRET_123" \
                  -d "token=$TOKEN_URL"
             echo "--- Đã gửi về Server thành công ---"
